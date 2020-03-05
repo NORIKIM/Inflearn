@@ -15,13 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NZr-wk-uRE">
-                                <rect key="frame" x="87" y="243" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="6qp-ra-V4r">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6qp-ra-V4r" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6vk-VM-5DF"/>
+                            <constraint firstAttribute="trailing" secondItem="6qp-ra-V4r" secondAttribute="trailing" id="GhA-kb-2Sm"/>
+                            <constraint firstAttribute="bottom" secondItem="6qp-ra-V4r" secondAttribute="bottom" id="cbr-9u-9eW"/>
+                            <constraint firstItem="6qp-ra-V4r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wjQ-C5-Bhg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -30,4 +34,7 @@
             <point key="canvasLocation" x="133" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WeatherBG_Sun.png" width="180" height="320.16000366210938"/>
+    </resources>
 </document>
