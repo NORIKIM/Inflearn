@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2537F81324107E8100050F05 /* WeatherBG_Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537F81224107E8100050F05 /* WeatherBG_Sun.png */; };
+		2537F81524107EB000050F05 /* weather_icon_sun_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537F81424107EB000050F05 /* weather_icon_sun_cloud.png */; };
 		2545117F23F280A300208FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545117E23F280A300208FF3 /* AppDelegate.swift */; };
 		2545118123F280A300208FF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545118023F280A300208FF3 /* SceneDelegate.swift */; };
 		2545118323F280A300208FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545118223F280A300208FF3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2537F81224107E8100050F05 /* WeatherBG_Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeatherBG_Sun.png; path = ../../image/WeatherBG_Sun.png; sourceTree = "<group>"; };
+		2537F81424107EB000050F05 /* weather_icon_sun_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weather_icon_sun_cloud.png; path = ../../image/weather_icon_sun_cloud.png; sourceTree = "<group>"; };
 		2545117B23F280A300208FF3 /* Basic1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2545117E23F280A300208FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2545118023F280A300208FF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				2545118223F280A300208FF3 /* ViewController.swift */,
 				2545118423F280A300208FF3 /* Main.storyboard */,
 				2545118723F280A500208FF3 /* Assets.xcassets */,
+				2537F81224107E8100050F05 /* WeatherBG_Sun.png */,
+				2537F81424107EB000050F05 /* weather_icon_sun_cloud.png */,
 				2545118923F280A500208FF3 /* LaunchScreen.storyboard */,
 				2545118C23F280A500208FF3 /* Info.plist */,
 			);
@@ -127,6 +133,8 @@
 			files = (
 				2545118B23F280A500208FF3 /* LaunchScreen.storyboard in Resources */,
 				2545118823F280A500208FF3 /* Assets.xcassets in Resources */,
+				2537F81524107EB000050F05 /* weather_icon_sun_cloud.png in Resources */,
+				2537F81324107E8100050F05 /* WeatherBG_Sun.png in Resources */,
 				2545118623F280A300208FF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
